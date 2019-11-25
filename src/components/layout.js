@@ -8,11 +8,11 @@ function Layout({ children }) {
     <div className="flex flex-col font-sans min-h-screen text-gray-900">
       <Header />
 
-      <main className="flex flex-col flex-1 md:justify-center max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
+      <main className="flex flex-col flex-1 max-w-4xl mx-auto px-8 md:w-full">
         {children}
       </main>
 
-      <footer className="bg-blue-700">
+      <footer className="">
         <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
           <p className="text-white">
             Created by{` `}
@@ -31,6 +31,9 @@ function Layout({ children }) {
             >
               GitHub
             </a>
+          </p>
+          <p>
+            <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
           </p>
         </nav>
       </footer>

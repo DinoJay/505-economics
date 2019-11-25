@@ -13,6 +13,9 @@ const userImg2 = `https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?i
 
 const userImg3 = `https://images.unsplash.com/photo-1559526323-cb2f2fe2591b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80`
 
+const anaImg  = `https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3820&q=80`;
+
+
 
 function IndexPage() {
   return (
@@ -44,7 +47,7 @@ function IndexPage() {
               style={{maxWidth:`11rem`, maxHeight: `12rem`}}
             >
             <p>
-              IDEO is a global consulting company. We create positive change through analytics.
+              505 Economics is a global consulting company. We create positive change through analytics.
                 </p>
 
               <div className="mt-3">
@@ -79,7 +82,8 @@ function IndexPage() {
                 </div>
 
 
-                <div className="mt-8 bg-gray-100 my-3 p-4 italic flex font-serif"><p className="p-2 text-xl " style={{minWidth: `15rem`}}>Wherever you are we solve your problems! Bla bla bla bla bla bla bla</p>
+
+                <div className="mt-12 bg-gray-100 my-3 p-4 italic flex font-serif"><p className="p-2 text-xl " style={{minWidth: `15rem`}}>Wherever you are we solve your problems! Bla bla bla bla bla bla bla</p>
 
                   <img className="rounded-full"src={userImg1} style={{maxHeight: `11rem`, maxWidth: `11rem`}}/>
                   <img className="rounded-full mx-2"src={userImg2} style={{maxHeight: `11rem`,
@@ -92,6 +96,17 @@ function IndexPage() {
 
                 </div>
 
+                <div className="mt-8 bg-gray-100 my-3 p-4 flex ">
+
+
+                  <img className="border-yellow-400 border-b-8 mr-3 float-right"src={anaImg} style={{maxWidth: `12rem`}}></img>
+
+
+                  <p>
+                    <h3 className="text-2xl">About: </h3>
+
+                  505 Economics is an economic consultancy specialised in supporting governments in developing countries. The consultancy develops solutions for policymakers in challenging environments where traditional data sources cannot be utilised or data quality is low. It produces reliable macroeconomic forecasts, evaluates economic policies and develops modern policy simulation tools. The primary objective of 505 economics is to build capacity and train governments to become fully independent.</p>
+                        </div>
 
       </section>
     </Layout>

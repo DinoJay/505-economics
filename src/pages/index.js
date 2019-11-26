@@ -65,13 +65,13 @@ function IndexPage() {
 
                 "
                     src={imgSrc1}
-                    style={{maxWidth: `17rem`}}
+                    style={{maxWidth: `17rem`, objectFit: `cover`}}
                   />
               <img
                 alt="Cat and human sitting on a couch"
                 className="border-b-8 border-yellow-400"
                 src={imgSrc2}
-                style={{maxWidth: `17rem`}}
+                style={{maxWidth: `17rem`, objectFit: `cover`}}
               />
                 <img
                 alt="Cat and human sitting on a couch"
@@ -85,28 +85,32 @@ function IndexPage() {
 
                 <div className="mt-12 bg-gray-100 my-3 p-4 italic flex font-serif"><p className="p-2 text-xl " style={{minWidth: `15rem`}}>Wherever you are we solve your problems! Bla bla bla bla bla bla bla</p>
 
-                  <img className="rounded-full"src={userImg1} style={{maxHeight: `11rem`, maxWidth: `11rem`}}/>
-                  <img className="rounded-full mx-2"src={userImg2} style={{maxHeight: `11rem`,
-                maxWidth: `11rem`
-
+                  <img className="rounded-full"
+                    src={userImg1}
+                    style={{maxHeight: `11rem`,
+                      maxWidth: `11rem`, objectFit:`cover`}}/>
+                  <img className="-mx-4 rounded-full mx-2"
+                    src={userImg2}
+                    style={{maxHeight: `11rem`,
+                      maxWidth: `11rem`, objectFit:`cover`
                   }}/>
-
-
-                  <img className="rounded-full"src={userImg3} style={{maxHeight: `11rem`, maxWidth: `11rem`}}/>
+                <img className="rounded-full"src={userImg3}
+                  style={{maxHeight: `11rem`, maxWidth: `11rem`,
+                    objectFit:`cover`}}/>
 
                 </div>
 
                 <div className="mt-8 bg-gray-100 my-3 p-4 flex ">
 
-
-                  <img className="border-yellow-400 border-b-8 mr-3 float-right"src={anaImg} style={{maxWidth: `12rem`}}></img>
-
+                  <img
+                    className="border-yellow-400 border-b-8 mr-3 float-right"
+                    src={anaImg} style={{maxWidth: `12rem`}}></img>
 
                   <p>
                     <h3 className="text-2xl">About: </h3>
-
-                  505 Economics is an economic consultancy specialised in supporting governments in developing countries. The consultancy develops solutions for policymakers in challenging environments where traditional data sources cannot be utilised or data quality is low. It produces reliable macroeconomic forecasts, evaluates economic policies and develops modern policy simulation tools. The primary objective of 505 economics is to build capacity and train governments to become fully independent.</p>
-                        </div>
+                    505 Economics is an economic consultancy specialised in supporting governments in developing countries. The consultancy develops solutions for policymakers in challenging environments where traditional data sources cannot be utilised or data quality is low. It produces reliable macroeconomic forecasts, evaluates economic policies and develops modern policy simulation tools. The primary objective of 505 economics is to build capacity and train governments to become fully independent.
+                  </p>
+                </div>
 
       </section>
     </Layout>

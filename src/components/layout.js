@@ -8,7 +8,7 @@ function Layout({ children }) {
     <div className="flex flex-col font-sans min-h-screen text-gray-900">
       <Header />
 
-      <main className="flex flex-col flex-1 max-w-4xl mx-auto px-8 md:w-full">
+      <main className="flex flex-col flex-1 max-w-4xl mx-auto px-8 w-full">
         {children}
       </main>
 
@@ -20,7 +20,7 @@ function Layout({ children }) {
               className="font-bold no-underline text-white"
               href="https://bryant.io"
             >
-              Taylor Bryant
+              Jan Maushagen
             </a>
           </p>
 

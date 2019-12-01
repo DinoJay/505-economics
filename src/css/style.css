@@ -19,3 +19,18 @@
     max-width: 12rem;
   }
 }
+
+
+@responsive {
+  .title-big {
+    font-size: 5.4rem;
+    line-height: 5.4rem;
+  }
+}
+
+@responsive {
+  .title-small {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}

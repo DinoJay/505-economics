@@ -23,7 +23,7 @@ function IndexPage() {
       <section className="flex flex-col">
 
         <div className="flex flex-wrap">
-          <div style={{fontSize: `6rem`, lineHeight: `5.4rem`}}>
+          <div className="title-small sm:title-big">
             <div
               className="font-serif border-white border-b-4 hover:border-yellow-400">
               Locate

@@ -13,3 +13,9 @@
   height: 20rem;
 }
 
+
+@responsive {
+  .bt-img-max-w {
+    max-width: 12rem;
+  }
+}

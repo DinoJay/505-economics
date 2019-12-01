@@ -63,13 +63,13 @@ function IndexPage() {
                   />
               <img
                 alt="Cat and human sitting on a couch"
-                className="max-w-xs mx-4 border-b-8 border-yellow-400"
+                className="max-w-xs mx-4 border-b-8 border-yellow-400 hd-img-h"
                 src={imgSrc2}
                 style={{ objectFit: `cover`}}
               />
                 <img
                 alt="Cat and human sitting on a couch"
-                  className="max-w-xs block ml-auto border-b-8 border-yellow-400 "
+                  className="max-w-xs block ml-auto border-b-8 border-yellow-400 hd-img-h "
                   src={imgSrc3}
                   style={{ objectFit: `cover`}}
                 />
@@ -102,8 +102,8 @@ function IndexPage() {
                 <div className="mt-8 bg-gray-100 my-3 p-4 flex flex-wrap">
 
                   <img
-                    className="border-yellow-400 border-b-8 mr-3 float-right"
-                    src={anaImg} style={{maxWidth: `12rem`}}></img>
+                    className="border-yellow-400 border-b-8 sm:mr-3 sm:bt-img-max-w max-w-full flex-grow"
+                    src={anaImg} style={{height: `13rem`}}></img>
 
                   <p className="mt-3 max-w-xl sm:mt-0">
                     <h3 className="text-2xl">About:</h3>
